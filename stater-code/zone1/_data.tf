@@ -1,6 +1,6 @@
 data "aws_caller_identity" "current" {}
 
- data "aws_ami" "amazon_linux_2" {
+data "aws_ami" "amazon_linux_2" {
    most_recent = true
    owners      = ["amazon"]
 
@@ -14,4 +14,4 @@ data "aws_caller_identity" "current" {}
      name   = "name"
      values = ["amzn2-ami-hvm*"]
    }
- }
+}
