@@ -19,9 +19,9 @@ data "aws_caller_identity" "current" {}
 data "terraform_remote_state" "vpc" {
   backend = "s3" 
   config = {
-     bucket = "udacity-tf-nhadd-west"
+     bucket = "udacity-project2-066778212893-tf-nhadd"
      key    = "terraform/terraform.tfstate"
-     region = "us-west-1"
+     region = "us-east-2"
    }
 
 
