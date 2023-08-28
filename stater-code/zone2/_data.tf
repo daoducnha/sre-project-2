@@ -21,7 +21,7 @@ data "terraform_remote_state" "vpc" {
   config = {
      bucket = "udacity-tf-nhadd-west"
      key    = "terraform/terraform.tfstate"
-     region = "us-east-2"
+     region = "us-west-1"
    }
 
 
